@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+margin: 0;
+}
+p{
+color: hsl(0, 0%, 1%);
+}
+header {
+background-color: #1330d1;
+color: #c74747;
+padding: 10px;
+}
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+section {
+padding: 50px;
+h1, h2 {
+margin-bottom: 20px;
+}
+.cta-btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+.cta-btn:hover {
+background-color: #0056b3;
+}
+form label, form input, form textarea {
+display: block;
+margin-bottom: 10px;
+}
+form input, form textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+form button {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+form button:hover {
+background-color: #0056b3;
+}
